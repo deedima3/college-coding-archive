@@ -1,0 +1,2 @@
+language = "cpp"
+run = "clang task-1-graph-problem.cpp"
