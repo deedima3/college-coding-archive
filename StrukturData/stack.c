@@ -1,12 +1,16 @@
 #include<stdio.h>
+<<<<<<< Updated upstream
 #include<string.h>
 #include<stdlib.h>
+=======
+>>>>>>> Stashed changes
 
 void push();
 void pop();
 void clear();
 void print();
 
+<<<<<<< Updated upstream
 struct data 
 {  
     char name[20]; 
@@ -28,10 +32,24 @@ int main(){
         printf("5. Exit\n");
         printf("Pilih menu yang anda inginkan:");
         scanf("%d", &pilihan);
+=======
+int main(){
+    int top = -1;
+    while(1){
+        int pilihan;
+        printf("Program Stack By Dima");
+        printf("1. Push");
+        printf("2. Pop");
+        printf("3. Clear");
+        printf("4. Print");
+        printf("5. Exit");
+        printf("Pilih menu yang anda inginkan:");
+>>>>>>> Stashed changes
         switch (pilihan)
         {
         case 1:
             push();
+<<<<<<< Updated upstream
             getch();
             break;
         case 2:
@@ -45,6 +63,17 @@ int main(){
         case 4:
             print();
             getch();
+=======
+            break;
+        case 2:
+            pop();
+            break;
+        case 3:
+            clear();
+            break;
+        case 4:
+            print();
+>>>>>>> Stashed changes
             break;
         case 5:
             exit(0);
@@ -59,6 +88,7 @@ int main(){
 }
 
 void push(){
+<<<<<<< Updated upstream
     if(top != 4){
         char data[15];
         top++;
@@ -104,4 +134,19 @@ void print(){
             printf("| %s |\n", stack[i].name);
         }
     }
+=======
+
+}
+
+void pop(){
+
+}
+
+void clear(){
+
+}
+
+void print(){
+
+>>>>>>> Stashed changes
 }
