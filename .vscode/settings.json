@@ -4,6 +4,8 @@
         "xstring": "c",
         "xutility": "c",
         "system_error": "c",
-        "xlocale": "c"
+        "xlocale": "c",
+        "stdio.h": "c",
+        "xiosbase": "c"
     }
 }
